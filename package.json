@@ -1,0 +1,27 @@
+{
+  "name": "ajax-diff",
+  "version": "0.0.1",
+  "description": "Automatically fetch local links with ajax and merge them into the current document.",
+  "author": "Turtlemay <turtlemay@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turtlemay/ajax-diff.git"
+  },
+  "keywords": [
+    "typescript",
+    "browser",
+    "ajax",
+    "dom",
+    "diff",
+    "history"
+  ],
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "diff-dom": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
